@@ -4,9 +4,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/spring-petclinic/spring-petclinic-microservices-config
+          uri: https://github.com/jmservera/java-microservices-aks-lab-config
+          username: jmservera
+          password: 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
           default-label: main
         # Use the File System Backend to avoid git pulling. Enable "native" profile in the Config Server.
         native:
           searchLocations: file:///${GIT_REPO}
-
